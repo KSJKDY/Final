@@ -1,0 +1,293 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFF6"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFF6"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/lankblank"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="이름" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/lankblank"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="나이" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/lankblank"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="얻어먹은횟수" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        
+                        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" >
+                    </LinearLayout>
+                    
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" 
+                            android:gravity="center_horizontal" >
+                        </LinearLayout>
+                        
+                        <Button
+                        android:id="@+id/button1"
+                        android:layout_width="140dp"
+                        android:layout_height="42dp"                     
+                        android:background="@drawable/get" />
+
+                        <ListView
+                            android:id="@+id/listView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+                        </ListView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" >
+                    </LinearLayout>
+                    
+
+                    <EditText
+                        android:id="@+id/editText0"
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/editText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/editText4"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFF6"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/lankblank"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="이름" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/lankblank"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="나이" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/lankblank"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="밥 사준횟수" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <ListView
+                            android:id="@+id/listView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+                        </ListView>
+                    </LinearLayout>
+
+                    
+                     <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+                         </LinearLayout>
+                         
+                     <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                         >
+                    </LinearLayout>
+                    
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" 
+                            android:gravity="center_horizontal" >
+                        </LinearLayout>
+                        
+                        <Button
+                        android:id="@+id/button2"
+                        android:layout_width="140dp"
+                        android:layout_height="42dp" 
+                        android:layout_marginLeft="100dp"                    
+                        android:background="@drawable/buy" />
+
+                             
+                     <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                         >
+                    </LinearLayout>
+                    
+                    <EditText
+                        android:id="@+id/editText5"
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/editText6"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/editText7"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/editText8"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/editText9"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:enabled="false" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

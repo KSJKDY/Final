@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+         <RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:layout_centerInParent="true"
+
+    android:layout_width="150dip"
+
+    android:layout_height="300dip"
+
+    android:background="#50FFFFFF">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="취소" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="신쳥" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="18dp"
+            android:text="자세히 알아봐요 (확인버튼)"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            android:text="해치지않아용"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_marginBottom="22dp"
+            android:text="밥먹어요~~^^"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <WebView
+            android:id="@+id/popup1"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>  

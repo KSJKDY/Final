@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+         <RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:layout_centerInParent="true"
+
+    android:layout_width="150dip"
+
+    android:layout_height="400dip"
+
+    android:background="#50FFFFFF">
+
+        <android.webkit.WebView android:layout_width="fill_parent" 
+
+        android:id="@+id/webPopup" 
+
+        android:layout_height="150dip" 
+		
+        android:layout_alignParentLeft="true">
+
+        </android.webkit.WebView>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="취소" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="신쳥" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_marginBottom="24dp"
+            android:text="이름"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:text="호감도"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="27dp"
+            android:text="나이"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>  

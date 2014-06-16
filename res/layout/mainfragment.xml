@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loading5"
+    android:orientation="vertical" >
+
+
+    <kr.co.kumoh.neighbor.MarqueeTextView
+        android:id="@+id/selection_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/showhome"
+        android:layout_width="match_parent"
+        android:layout_height="517dp"
+        android:background="#00FF0000" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/slidingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|fill_horizontal|right"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.58"
+			android:text="내배고픔을 달래줄 사람을 찾아요"
+            android:gravity="fill_horizontal"
+            android:inputType="textMultiLine"
+             android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <requestFocus />
+        </TextView>
+
+        <Button
+            android:id="@+id/bt_left"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:onClick="onClick"
+            android:text="List" />
+
+    </LinearLayout>
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment" >
+</fragment>
+
+
+</LinearLayout>

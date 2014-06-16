@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFF6" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFF6"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFF6"
+            android:orientation="horizontal" >
+
+            <ToggleButton
+                android:id="@+id/bt_oneFragment"
+                android:layout_width="wrap_content"
+   				android:layout_height="wrap_content"
+   				android:layout_marginLeft="30dp"	
+                android:textOn=""
+                android:textOff=""		
+                android:background="@drawable/tab_map_btn"/>
+
+            <ToggleButton 
+                android:id="@+id/bt_twoFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/tab_home_btn" />
+
+            <ToggleButton
+                android:id="@+id/bt_threeFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/tab_rank_btn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"  
+            android:id="@+id/ll_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:background="@drawable/welcome4">
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
